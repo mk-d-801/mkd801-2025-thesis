@@ -1,0 +1,105 @@
+              precision    recall  f1-score   support
+
+       anger    0.62887   0.53043   0.57547       345
+     disgust    0.33962   0.26471   0.29752        68
+        fear    0.25000   0.28000   0.26415        50
+         joy    0.68734   0.66169   0.67427       402
+     neutral    0.78207   0.85430   0.81659      1256
+     sadness    0.55405   0.39423   0.46067       208
+    surprise    0.58746   0.63345   0.60959       281
+
+    accuracy                        0.69502      2610
+   macro avg    0.54706   0.51697   0.52832      2610
+weighted avg    0.68638   0.69502   0.68804      2610
+
+              precision    recall  f1-score   support
+
+    negative    0.73657   0.69148   0.71331       833
+     neutral    0.78444   0.84315   0.81274      1256
+    positive    0.71757   0.65835   0.68669       521
+
+    accuracy                        0.75785      2610
+   macro avg    0.74620   0.73099   0.73758      2610
+weighted avg    0.75582   0.75785   0.75584      2610
+
+           Rachel   Monica   Phoebe     Ross  Chandler     Joey
+anger     0.66667  0.62295  0.49057  0.64583   0.50000  0.46809
+disgust   0.26667  0.28571  0.50000  0.28571   0.29630  0.25000
+fear      0.36364  0.38095  0.40000  0.30769   0.14286  0.18182
+joy       0.70229  0.66667  0.68041  0.64151   0.60759  0.72727
+neutral   0.77966  0.77632  0.82230  0.81748   0.81218  0.84541
+sadness   0.51429  0.24242  0.43902  0.35556   0.37931  0.64000
+surprise  0.68182  0.57500  0.60870  0.62651   0.50000  0.63830
+W-F1      0.69097  0.64817  0.68054  0.68872   0.63994  0.72066
+M-F1      0.56786  0.50715  0.56300  0.52576   0.46261  0.53584
+Acc       0.69382  0.65607  0.69416  0.70241   0.64380  0.72506
+           Rachel   Monica   Phoebe     Ross  Chandler     Joey
+negative  0.76000  0.74603  0.73563  0.69528   0.66148  0.71967
+neutral   0.76451  0.79470  0.81720  0.79896   0.80905  0.84185
+positive  0.73373  0.68116  0.72868  0.60000   0.62136  0.73256
+W-F1      0.75560  0.75283  0.77071  0.72822   0.73144  0.78317
+M-F1      0.75274  0.74063  0.76051  0.69808   0.69729  0.76469
+Acc       0.75562  0.75434  0.77320  0.73190   0.73351  0.78345
+Total Incorrect Samples: 796
+Total Incorrect Samples: 632
+送信完了
+---------------Done--------------
+Saved: w_cloud/meld_wordcloud_neutral.png
+Saved: w_cloud/meld_wordcloud_surprise.png
+Saved: w_cloud/meld_wordcloud_fear.png
+Saved: w_cloud/meld_wordcloud_sadness.png
+Saved: w_cloud/meld_wordcloud_joy.png
+Saved: w_cloud/meld_wordcloud_disgust.png
+Saved: w_cloud/meld_wordcloud_anger.png
+              precision    recall  f1-score   support
+
+       anger    0.62887   0.53043   0.57547       345
+     disgust    0.33962   0.26471   0.29752        68
+        fear    0.25000   0.28000   0.26415        50
+         joy    0.68734   0.66169   0.67427       402
+     neutral    0.78207   0.85430   0.81659      1256
+     sadness    0.55405   0.39423   0.46067       208
+    surprise    0.58746   0.63345   0.60959       281
+
+    accuracy                        0.69502      2610
+   macro avg    0.54706   0.51697   0.52832      2610
+weighted avg    0.68638   0.69502   0.68804      2610
+
+              precision    recall  f1-score   support
+
+    negative    0.73657   0.69148   0.71331       833
+     neutral    0.78444   0.84315   0.81274      1256
+    positive    0.71757   0.65835   0.68669       521
+
+    accuracy                        0.75785      2610
+   macro avg    0.74620   0.73099   0.73758      2610
+weighted avg    0.75582   0.75785   0.75584      2610
+
+           Rachel   Monica   Phoebe     Ross  Chandler     Joey
+anger     0.66667  0.62295  0.49057  0.64583   0.50000  0.46809
+disgust   0.26667  0.28571  0.50000  0.28571   0.29630  0.25000
+fear      0.36364  0.38095  0.40000  0.30769   0.14286  0.18182
+joy       0.70229  0.66667  0.68041  0.64151   0.60759  0.72727
+neutral   0.77966  0.77632  0.82230  0.81748   0.81218  0.84541
+sadness   0.51429  0.24242  0.43902  0.35556   0.37931  0.64000
+surprise  0.68182  0.57500  0.60870  0.62651   0.50000  0.63830
+W-F1      0.69097  0.64817  0.68054  0.68872   0.63994  0.72066
+M-F1      0.56786  0.50715  0.56300  0.52576   0.46261  0.53584
+Acc       0.69382  0.65607  0.69416  0.70241   0.64380  0.72506
+           Rachel   Monica   Phoebe     Ross  Chandler     Joey
+negative  0.76000  0.74603  0.73563  0.69528   0.66148  0.71967
+neutral   0.76451  0.79470  0.81720  0.79896   0.80905  0.84185
+positive  0.73373  0.68116  0.72868  0.60000   0.62136  0.73256
+W-F1      0.75560  0.75283  0.77071  0.72822   0.73144  0.78317
+M-F1      0.75274  0.74063  0.76051  0.69808   0.69729  0.76469
+Acc       0.75562  0.75434  0.77320  0.73190   0.73351  0.78345
+Total Incorrect Samples: 796
+Total Incorrect Samples: 632
+---------------Done--------------
+Saved: MELD/figures/w_cloud/MELD_wordcloud_neutral.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_surprise.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_fear.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_sadness.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_joy.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_disgust.png
+Saved: MELD/figures/w_cloud/MELD_wordcloud_anger.png
