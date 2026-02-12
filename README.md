@@ -3,12 +3,20 @@
 モデルの全体構造
 
 以下の操作を、順番に行ってください。
+## リポジトリのクローン
+```bash
+git clone https://github.com/midoor801/SCL.git
+```
 ## 実験環境
-ここでは、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。
+NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。SCLディレクトリに移動して以下を実行してください。
 1. python 3.9
+```
+conda create -n SCL python=3.9
+```
 2. requirements.txt
-3. 
-
+```
+pip install -r requirements.txt
+```
 ## データセット
 各データセットをdatasetディレクトリに配置してください。データセットは下記のリンクからダウンロードしてください。
 1. MELD
