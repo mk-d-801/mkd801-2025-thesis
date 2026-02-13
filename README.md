@@ -8,7 +8,7 @@
 git clone https://github.com/midoor801/SCL.git
 ```
 ## 実験環境
-Ubuntu環境で、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。SCLディレクトリに移動して以下を実行してください。
+Ubuntu環境で、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。以下のコマンドを実行してください。
 1. python 3.9
 ```
 conda create -n SCL python=3.9
@@ -30,7 +30,7 @@ sudo apt update
 sudo apt install ffmpeg
 ```
 ## データセット
-各データセットを[datasetディレクトリ](./dataset)に配置してください。データセットは下記のリンクからダウンロードしてください。
+各データセットを[datasetディレクトリ](./dataset)に配置してください。
 1. [MELD](https://affective-meld.github.io)
 
 下記のコマンドを実行してください。
@@ -105,7 +105,7 @@ python to_wav.py
 ```
 ## 訓練
 このモデルは、GPUのVRAMが24GB以上あることを想定しています。
-**MELD**
+1. MELD
 
 8GB以上24GB未満のVRAM環境で実行する場合は、[teacher.py](./MELD/teacher.py)および[student.py](./MELD/student.py)のbatch_sizeを1に設定し、[fusion.py](./MELD/fusion.py)のbatch_sizeを4に設定してください。
 ```
@@ -114,7 +114,8 @@ python MELD/student.py
 python MELD/fusion.py
 ```
 学習ログをファイルに出力する場合は、コマンドの末尾に| tee -a log/MELD_log.txtをつけてください。
-**IEMOCAP**
+
+2. IEMOCAP
 
 8GB以上24GB未満のVRAM環境で実行する場合は、[teacher.py](./IEMOCAP/teacher.py)および[student.py](./IEMOCAP/student.py)のbatch_sizeを1に設定してください。
 ```
