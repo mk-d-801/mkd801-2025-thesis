@@ -8,7 +8,7 @@
 git clone https://github.com/midoor801/SCL.git
 ```
 ## 実験環境
-NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。SCLディレクトリに移動して以下を実行してください。
+Ubuntu環境で、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。SCLディレクトリに移動して以下を実行してください。
 1. python 3.9
 ```
 conda create -n SCL python=3.9
@@ -16,6 +16,16 @@ conda create -n SCL python=3.9
 2. requirements.txt
 ```
 pip install -r requirements.txt
+```
+3. ffmpegのインストール
+ffmpegがインストールされているか確認してください。
+```
+ffmpeg -version
+```
+インストールされていない場合は、以下のコマンドを実行してください。
+```
+sudo apt update
+sudo apt install ffmpeg
 ```
 ## データセット
 各データセットをdatasetディレクトリに配置してください。データセットは下記のリンクからダウンロードしてください。
