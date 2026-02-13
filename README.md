@@ -5,14 +5,14 @@
 以下の操作を、順番に行ってください。
 ## リポジトリのクローン
 ```bash
-git clone https://github.com/midoor801/SCL.git
+git clone https://github.com/mk-d-801/2025-thesis-2320069.git
 ```
 ## 実験環境
 Ubuntu環境で、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。以下のコマンドを実行してください。
 1. python 3.9
 ```
-conda create -n SCL python=3.9
-source activate SCL
+conda create -n thesis python=3.9
+source activate thesis
 ```
 2. requirements.txt
 ```
