@@ -5,7 +5,7 @@
 以下の操作を、順番に行ってください。
 ## リポジトリのクローン
 ```bash
-git clone https://github.com/mk-d-801/2025-thesis-2320069.git
+git clone https://github.com/mk-d-801/mkd801-2025-thesis.git
 ```
 ## 実験環境
 Ubuntu環境で、NVIDIA Driverおよびanacondaのインストールが行われていることを想定します。以下のコマンドを実行してください。
