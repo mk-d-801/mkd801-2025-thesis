@@ -1,4 +1,4 @@
-# センチメント情報と深層距離学習を考慮した会話におけるマルチモーダル感情認識モデル
+# センチメント情報と深層距離学習を考慮した会話におけるマルチモーダル感情認識モデル (A multimodal emotion recognition model in conversations that considers sentiment and deep metric learning.)
 ![Figure1](./Suggest.png)
 モデルの全体構造
 
