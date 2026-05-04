@@ -146,5 +146,11 @@ bash IEMOCAP.sh
 ```
 ## 参考文献
 本リポジトリのコードは、[TelME](https://github.com/yuntaeyang/TelME)をベースとして作成しています。
-
+```
+Taeyang Yun, Hyunkuk Lim, Jeonghwan Lee, Min Song, TelME:Teacher-leading Mul-
+timodal Fusion Network for Emotion Recognition in Conversation, Proceeding of the
+2024 Conference of the North American Chapter of the Association for Computa-
+tional Linguistics: Human Language Technologies, Volume 1: Long Papers, pp.82-95,
+2024.
+```
 
