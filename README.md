@@ -144,7 +144,7 @@ python MELD/wc.py
 bash MELD.sh
 bash IEMOCAP.sh
 ```
-##参考文献
+## 参考文献
 本リポジトリのコードは、[TelME](https://github.com/yuntaeyang/TelME)をベースとして作成しています。
 
 
