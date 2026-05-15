@@ -1,6 +1,7 @@
 # センチメント情報と深層距離学習を考慮した会話におけるマルチモーダル感情認識モデル (A Multimodal Emotion Recognition Model in Conversations That Considers Sentiment and Deep Metric Learning)
 ![Figure1](./Suggest.png)
-モデルの全体構造
+
+2025年度に執筆した卒業論文のコードです。
 
 以下の操作を、順番に行ってください。
 ## リポジトリのクローン
